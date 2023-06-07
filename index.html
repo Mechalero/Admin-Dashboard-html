@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+
+        <title>Admins Dabshboard</title>
+
+        <!--Monserra icon-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!--Material icon-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="css/styles.css" >
+    </head>
+    <body>
+        <div  class="g-container">
+
+            <!--Header-->
+            <header class="header">
+                <div class="menu-icon" onclick="openSidebar()">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+                <div class="header-left">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+                <div class="header-right">
+                    <span class="material-symbols-outlined">notifications</span>
+                    <span class="material-symbols-outlined">mail</span>
+                    <span class="material-symbols-outlined">account_circle</span>
+                </div>
+            </header>
+            <!--End Header-->
+
+            <!--Sidebar-->
+            <aside id="sidebar">
+                <div class="sidebar-title">
+                    <div class="sidebar-brand">
+                        <span class="material-symbols-outlined">shopping_cart</span>Logo-Brand
+                    </div>
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">dashboard</span> Dashboard
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">inventory_2</span> Products
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">category</span> Categories
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">groups</span> Customer
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">fact_check</span> Inventory
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">poll</span> Repots
+                    </li>
+                    <li class="sidebar-list-item">
+                        <span class="material-symbols-outlined">settings</span> Settings
+                    </li>
+                </ul>
+            </aside>
+            <!--End Sidebar-->
+
+            <!--Main-->
+            <main class="main-container">
+                <div class="main-title">
+                    <h2>Dashboard</h2>
+                </div>
+                <div class="main-cards">
+                    <div class="card">
+                        <div class="card-inner">
+                            <h3>Products</h3>
+                            <span class="material-symbols-outlined">inventory_2</span>
+                        </div>
+                        <h1>249</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <h3>Categories</h3>
+                            <span class="material-symbols-outlined">category</span>
+                        </div>
+                        <h1>2</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <h3>Customer</h3>
+                            <span class="material-symbols-outlined">group</span>
+                        </div>
+                        <h1>10</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <h3>Alert</h3>
+                            <span class="material-symbols-outlined">alert</span>
+                        </div>
+                        <h1>249</h1>
+                    </div>
+                </div>
+            </main>
+            <!-- End Main-->
+        </div>
+        
+        <!--Custom JS-->
+        <script src="js/scripts.js" ></script>
+    </body>
+</html>
